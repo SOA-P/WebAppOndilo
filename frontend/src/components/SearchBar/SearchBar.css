@@ -1,0 +1,17 @@
+.search-container {
+  position: fixed;
+  width: auto;
+}
+
+input {
+  position: relative;
+  display: flex;
+  justify-content: end;
+  top: 50px;
+  left: 61vw;
+  width: 33vw;
+  height: 3vh;
+  background-color: #fef8f669;
+  border-radius: 10px;
+  font-family: Lato;
+}

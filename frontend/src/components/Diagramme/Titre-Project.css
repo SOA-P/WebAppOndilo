@@ -1,0 +1,15 @@
+.Project-title-pro h3 {
+  position: absolute;
+  top: 58vh;
+  right: 77vw;
+  color: black;
+  font-family: Lato;
+}
+
+.Project-title-pro i {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 58vh;
+  left: 48vw;
+}

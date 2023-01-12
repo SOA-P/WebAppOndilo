@@ -1,0 +1,40 @@
+@font-face {
+  font-family: Lato-Bold;
+  src: url(../../assets/Fonts/Lato-Bold.ttf);
+}
+
+@font-face {
+  font-family: Lato-Black;
+  src: url(../../assets/Fonts/Lato-Black.ttf);
+}
+@font-face {
+  font-family: Lato-Regular;
+  src: url(../../assets/Fonts/Lato-Regular.ttf);
+}
+.schedule-container {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 700px;
+  height: 70px;
+  margin-top: 25px;
+  left: 20vh;
+  align-items: center;
+}
+.select-style {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Title {
+  font-family: Lato-Black;
+  font-size: 1.7em;
+}
+.select-style {
+  font-size: 1em;
+  font-family: lato;
+}
+.select-title {
+  border: none;
+  font-family: lato;
+}

@@ -1,0 +1,48 @@
+@font-face {
+  font-family: Lato-Bold;
+  src: url(../../assets/Fonts/Lato-Bold.ttf);
+}
+@font-face {
+  font-family: Lato;
+  src: url(../../assets/Fonts/Lato-Bold.ttf);
+}
+
+.nav-container {
+  position: absolute;
+  align-items: center;
+  top: 10vh;
+  width: 40vw;
+}
+
+.nav-selector {
+  display: flex;
+
+  font-family: Lato;
+}
+.nav-selector,
+ul {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+}
+.nav-selector a::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background: black;
+  transform: scale(0);
+  transition: transform 0.2s ease-in-out;
+}
+.nav-selector a:hover::after {
+  transform: scale(1);
+}
+.nav-selector a {
+  position: relative;
+  color: rgb(193, 187, 193);
+}
+
+.nav-selector a:hover {
+  color: black;
+}

@@ -1,0 +1,19 @@
+.Files-Title {
+  position: absolute;
+  left: 62vw;
+  top: 57vh;
+  font-family: Lato;
+  font-size: 1.5em;
+}
+.Files-txt {
+  position: absolute;
+  left: 86vw;
+  top: 57vh;
+  font-family: Lato-Regular;
+  font-size: 1.3em;
+}
+.icon-title {
+  position: absolute;
+  left: 92vw;
+  top: 57vh;
+}

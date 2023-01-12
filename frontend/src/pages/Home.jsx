@@ -1,36 +1,31 @@
-import Counter from "../components/Counter";
-import logo from "../assets/logo.svg";
+import DesignBox from "@components/BoxIllustration/DesignBox";
+import DesignUxBox from "@components/BoxIllustration/DesignUxBox";
+import IllustrationBox from "@components/BoxIllustration/illustrationBox";
+import Diagramme from "@components/Diagramme/Diagramme";
+import Meeting from "@components/Meeting/Meeting";
+import Schedule from "@components/Schedule/Schedule";
+import SearchBar from "@components/SearchBar/Search";
+import SideBar from "@components/SideBar/SideBar";
+import UserProfile from "@components/UserProfile/UserProfile";
+import Files from "@components/Files/Files";
+import Files2 from "@components/Files/Files2";
+import Files3 from "@components/Files/Files3";
 
 export default function Home() {
   return (
-    <header className="App-header">
-      <img src={logo} className="App-logo" alt="logo" />
-      <p>Hello Vite + React !</p>
-
-      <Counter />
-
-      <p>
-        Edit <code>App.jsx</code> and save to test HMR updates.
-      </p>
-      <p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-        {" | "}
-        <a
-          className="App-link"
-          href="https://vitejs.dev/guide/features.html"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Vite Docs
-        </a>
-      </p>
-    </header>
+    <div>
+      <SideBar />
+      <Schedule />
+      <SearchBar />
+      <Meeting />
+      <UserProfile />
+      <IllustrationBox />
+      <DesignUxBox />
+      <DesignBox />
+      <Diagramme />
+      <Files />
+      <Files2 />
+      <Files3 />
+    </div>
   );
 }

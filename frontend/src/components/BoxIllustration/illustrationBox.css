@@ -1,0 +1,52 @@
+.illustration-box {
+  position: fixed;
+  left: 15vw;
+  top: 18vh;
+  width: 45em;
+  border-radius: 10px;
+
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+  background: linear-gradient(
+    90deg,
+    rgb(249, 249, 250) 0%,
+    rgba(111, 9, 121, 0.8534007352941176) 45%,
+    rgb(255, 172, 6) 100%
+  );
+}
+
+.illustration-box img {
+  width: 50px;
+  height: 50px;
+  margin: 10px 10px;
+  align-items: center;
+  border-radius: 10px;
+  transform: rotate(0deg);
+}
+h3 {
+  font-family: Lato-Regular;
+  letter-spacing: 2px;
+  position: absolute;
+  top: 12px;
+  font-size: 1.4em;
+  right: 318px;
+  color: rgb(6, 6, 6);
+}
+h4 {
+  letter-spacing: 2px;
+  font-family: Lato, serif;
+  position: absolute;
+  top: 40px;
+  right: 400px;
+  padding: 2px;
+  color: rgb(79, 76, 76);
+}
+.illustration-box h4:hover {
+  color: rgb(254, 253, 253);
+}
+
+.illustration-box h3:hover {
+  color: rgb(255, 252, 252);
+}

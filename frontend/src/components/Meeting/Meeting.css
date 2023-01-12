@@ -1,0 +1,10 @@
+.box-container {
+  position: absolute;
+  top: 18%;
+  padding: 2px;
+  right: 120px;
+  width: 550px;
+  height: 290px;
+  border: 1px solid;
+  border-radius: 10px;
+}

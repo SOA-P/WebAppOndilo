@@ -1,0 +1,33 @@
+.container-meet {
+  position: relative;
+  display: flex;
+  margin: 10px;
+}
+
+.title{
+    position: absolute;
+    top:8vh;
+    left:60vw;
+    font-family: lato;
+    font-size: 1.4em;
+}
+.select-1,
+.option-1 {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  top: 9vh;
+  left: 83vw;
+  border: none;
+  font-family: lato;
+}
+
+.select-1,
+.option-1:hover {
+}
+
+.select-1,
+.option-1:hover::after {
+}
+
+.

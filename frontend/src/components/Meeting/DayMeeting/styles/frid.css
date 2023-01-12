@@ -1,0 +1,27 @@
+.time-container-4 {
+  position: absolute;
+  flex-direction: column;
+  font-family: lato;
+}
+.p-4 {
+  margin: 10px 0 10px 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+  width: 50px;
+  padding: 10px;
+  align-items: center;
+  border-radius: 10%;
+  background-color: #fce9e1;
+  font-family: lato;
+}
+.main-content-4 {
+  left: 450px;
+  position: absolute;
+  top: auto;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 287px;
+}
